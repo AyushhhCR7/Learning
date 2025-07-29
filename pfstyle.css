@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(6, 69, 110);
+    font-family: 'Poppins', sans-serif;
+    .content{
+        font-family: poppins, sans-serif;
+        font-size: 10px;
+        color: white;
+        font-weight: 100;
+        margin-left: 30px;
+    }
+
+    .projects{
+        font-family: poppins, sans-serif;
+        font-size: 17px;
+        color: rgb(10, 32, 226);
+        font-weight: 100;
+        width: 80%;
+        margin: 0 auto;
+
+        background-color: aqua;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+}

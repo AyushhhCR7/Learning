@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <title>Welcome to my Portfolio</title>
+    <link rel="stylesheet" href="pfstyle.css">
+</head>
+<style>
+    .navbar{
+        background-color: rgb(10, 205, 240);
+        padding: 5px;
+        border: 1px solid rgb(2, 238, 255);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-links {
+        display: flex;
+        gap: 30px;
+        margin-right: 30px;
+    }
+    .navbar h1 {
+        margin-left: 30px;
+    }
+</style>
+<body>
+    <div class="navbar">
+        <h1>  My Portfolio</h1>
+        <div class="nav-links">
+            <a href="index.html">home</a>
+            <a href="#about">About</a>
+            <a href="https://github.com/AyushhhCR7">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>welcome to my Portfolio</h1>
+        <p style="font-size: 20px; margin-left: 50px;">myself ayush kumar</p>
+        <p style="font-size: 17px;">i am proficient in </p>
+        <ul style="font-size: 17px;">
+            <li><strong>Python</strong></li>
+            <li>Java</li>
+            <li>C++</li>
+        </ul>
+    </div>
+    <div class="profile" style="margin-top: 30px; text-align: center;">
+        <img src="homepage-removebg-preview.png" 
+            alt="Profile Picture" 
+            style="max-width: 200px; width: 100%;
+            height: auto; border-radius: 20%; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+    </div>
+    <div class="content2">
+        <p style="color: aqua;
+            margin-bottom: 80px; margin-top: 100px;
+            text-align: center;">i know maine itna hi banaaya hai, aage aur banaaunga
+        </p>
+    </div>
+    <div class="projects">
+        <h2 style="font-size: 20px; margin-left: 30px;">Projects</h2>
+        <table style="width: 100%;">
+            <style>
+                th, td {
+                    border-bottom: 1.5px solid #0859f0;
+                    length: 50%;
+                }
+                th:last-child, td:last-child {
+                    text-align: right;
+                    width: 60%;
+                }
+            </style>
+            <tr>
+                <th style="margin-left: 20px;">Project name</th>
+                <th style="text-align: center;">Description</th>
+            </tr>
+            <tr>
+                <td style="text-align: center;">EcoSmartBin</td>
+                <td style="text-align: right;">a smart iot based system which will give you reward when you throw your shit in there</td>
+            </tr>
+        </table>
+    </div>
+</body>

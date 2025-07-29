@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+}
+.shadow{
+    
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.student{
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    border-radius: 0.5rem;          
+    overflow: hidden;
+}
+
+.student thead {
+    background:#4a8fda;    
+    color:#cea70b;
+    text-transform: capitalize;
+}
+
+.student th,
+.student td {
+    border: 1px solid black;
+    padding: 0.8rem 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.student tbody tr:nth-child(even) {
+    background:#c82525;
+}
+
+.student tbody tr:hover {
+    background:#98cd1a;
+    transition: background .5s ease;
+}
