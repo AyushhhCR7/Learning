@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+}
+
+.selfproject {
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+    width: 10%;
+    margin-left: 7%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.intro{
+    color: white;
+    justify-content: flex-start;
+    text-items: center;
+    margin-left: 7%;
+    margin-top: 6%;
+    font-family: poppins, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    gap: 70px;
+    margin: 0 auto;
+    font-family: poppins, sans-serif;
+    border-radius: 10px;
+    border: 0.5px solid;
+    position: sticky;
+    margin-top: 40px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.nowonmobile{
+    padding: 10px;
+    width: 7%;
+    height: 15px;
+    border-radius: 10px;
+    border: 0.5px solid;
+    color: white;
+    margin-left: 7%;
+    position: relative;
+    top: 80px;
+    font-family: poppins, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nowonmobile a{
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    margin-left: 70%;
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.features {
+    margin-left: 7%;
+    position: relative;
+    align-items: center;
+    height: 80px;
+   
+}
+.feature-text {
+    color: white;
+    font-family: poppins, sans-serif;
+    width: 30%;
+    text-align: left;
+    height: 120px;
+    line-height: 1.2;
+    margin-left: 15px;
+}
+
+.feature-text2 {
+    color: white;
+    font-family: poppins, sans-serif;
+    width: 80%;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+    
+    padding: 5px;
+    margin-right: 30px;
+    margin-left: 0; 
+    position: absolute; 
+    left: 0; 
+}
